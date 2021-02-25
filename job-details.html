@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TQ2JZ4N');</script>
+    <!-- End Google Tag Manager -->
+    <title>Job Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+    <link rel="stylesheet" href="css/leaflet.css" type="text/css">
+    <link rel="stylesheet" href="css/map.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css"  href="css/dropzone.css">
+    <link rel="stylesheet" type="text/css"  href="css/slick.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/red.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900%7CRaleway:300,400,500,600,700&amp;display=swap" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script  src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQ2JZ4N"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="page_loader"></div>
+
+<!-- Main header start -->
+<header class="main-header header-transparent sticky-header">
+    <div class="container" style="margin: 0px 100px; max-width: 100% !important">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="row " style="width: 100%; padding-top:10px;">
+                <div class="col-lg-2">
+                    <a class="navbar-brand logo" style="padding: 0px" href="index.html">
+                        <img style="height: 60px" src="img/portavite.png" alt="logo">
+                    </a>
+
+
+            </div>
+
+            <div class="col-sm-6">
+                <div class="" id="to-display" style="display: none; ">
+                    <div class="inline-search-area ml-auto mr-auto isa-3">
+                                        <div class="search-boxs">
+                                            <div class="search-col" >
+                                                <input type="text" name="search" class="form-control has-icon b-radius" placeholder="Job title or Keywords">
+                                            </div>
+                                            <div class="search-col" >
+                                                <select class="selectpicker search-fields" name="location">
+                                                    <option selected="">Any Location</option>
+                                                    <option>New York</option>
+                                                    <option>Australian</option>
+                                                    <option>Canada</option>
+                                                    <option>London</option>
+                                                </select>
+                                            </div>
+                                            <div class="find">
+                                                <button class="btn button-theme btn-search btn-block b-radius" >
+                                                    <i class="fa fa-search"></i><strong>Find Job</strong>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                </div>
+            </div>
+
+            <div id="brows_job" class="col-lg-3" style=" float: right; text-align: right;padding-top: 10px">
+                <ul class="navbar-nav ml-auto " >
+                    <li class="nav-item">
+                        <a href="browse-jobs.html" class="nav-link link-color"><i class="fa fa-search"></i> Browse All Jobs</a>
+                    </li>
+                </ul>
+            </div>
+        <!--</div>-->
+        </div>
+        </nav>
+    </div>
+</header>
+<!-- Main header end -->
+
+<!-- Sub banner start -->
+<div class="sub-banner">
+    <div class="container">
+        <div class="breadcrumb-area">
+            <h1>Job Detail</h1>
+            <ul class="breadcrumbs">
+                <li><a href="index-2.html">Home</a></li>
+                <li class="active">Job Detail</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Sub banner end -->
+
+<!-- Job details page start -->
+<div class="job-details-page content-area">
+    <div class="container custom_container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <!-- Main item start -->
+                <div class="main-item">
+                    <div class="company-logo">
+                        <img src="img/company-logo/logo-4.png" alt="avatar">
+                    </div>
+                    <div class="description">
+                        <h5 class="title"><a href="#">Development Marketer</a></h5>
+                        
+                    </div>
+                </div>
+                <hr class="hr-boder">
+                <!-- job description start -->
+                <div class="job-description mb-40">
+                    <h3 class="heading-2">Job Description</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa, a consequat purus viverra a. Aliquam pellentesque nibh et nibh feugiat gravida. Maecenas ultricies, diam vitae semper placerat, velit risus accumsan nisl, eget tempor lacus est vel nunc. Proin accumsan elit sed neque euismod fringilla. Curabitur lobortis nunc velit, et fermentum urna dapibus non. Vivamus magna lorem, elementum id gravida ac, laoreet tristique augue. Maecenas dictum lacus eu nunc porttitor, ut hendrerit arcu efficitur.</p>
+                </div>
+                <!-- Education + experience start-->
+                <div class="education-experience amenities mb-40">
+                    <h3 class="heading-2">Education + Experience</h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-check"></i>M.B.S / M.B.A under National University with CA course complete.
+                        </li>
+                        <li><i class="fa fa-check"></i>3 or more years of professional design experience</li>
+                        <li>
+                            <i class="fa fa-check"></i>Excellent communication skills, most notably a demonstrated ability to solicit and address creative and design feedback
+                        </li>
+                        <li>
+                            <i class="fa fa-check"></i>Masters of library science any Green University.
+                        </li>
+                        <li><i class="fa fa-check"></i>BA/BS degree in a technical field or equivalent practical experience.</li>
+                        <li>
+                            <i class="fa fa-check"></i>Ability to work independently and to carry out assignments to completion within parameters of instructions given, prescribed routines, and standard accepted practices
+                        </li>
+                    </ul>
+                </div>
+                <!-- Responsibilities start-->
+                <div class="responsibilities amenities mb-40">
+                    <h3 class="heading-2">Responsibilities</h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-check"></i>Explore and design dynamic and compelling consumer experiences.
+                        </li>
+                        <li><i class="fa fa-check"></i>Have sound knowledge of commercial activities.</li>
+                        <li>
+                            <i class="fa fa-check"></i>Build next-generation web applications with a focus on the client side.
+                        </li>
+                        <li>
+                            <i class="fa fa-check"></i>The applicants should have experience in the following areas
+                        </li>
+                    </ul>
+                </div>
+     
+              
+                <div class="clearfix"></div>
+    
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="sidebar-right-2">
+                    <!-- Search box start -->
+                    <div class="widget search-box">
+                        <form method="GET">
+                            <div class="form-group mb-0">
+                                <button class="search-button button-theme">Apply Now</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Job overview start -->
+                    <div class="job-overview widget">
+                        <h3 class="sidebar-title">Job Overview</h3>
+                        <div class="s-border"></div>
+                        <div class="m-border"></div>
+                        <ul>
+                            <li><i class="flaticon-work"></i><h5>Job Category</h5><span>UX Designer</span></li>
+                            <li><i class="flaticon-clock"></i><h5>Job Type</h5><span>Full Time</span></li>
+                            <li><i class="flaticon-money"></i><h5>Salary</h5><span>£12,000 - £25,000</span></li>
+                            <li><i class="flaticon-pin"></i><h5>Location</h5><span>New York City</span></li>
+                            <li><i class="flaticon-woman"></i><h5>Gender</h5><span>Any</span></li>
+                            <li><i class="flaticon-patent"></i><h5>Qualification</h5><span>Mba</span></li>
+                            <li><i class="flaticon-notepad"></i><h5>Experience</h5><span>2 to 3 year</span></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+<h1>Related Jobs</h1>
+           <div class="row">
+            <div class="col-lg-6">
+                <div class="job-item media">
+                    <a class="icon" href="job-details.html">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-3.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="job-details.html">Social Media Expert</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="col-lg-6">
+                <div class="job-item media">
+                    <a class="icon" href="job-details.html">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-4.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="job-details.html">Technical Database Engineer</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="col-lg-6">
+                <div class="job-item media">
+                    <a class="icon" href="#">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-1.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="job-details.html">Digital Marketing Executive</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="col-lg-6">
+                <div class="job-item media">
+                    <a class="icon" href="#">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-2.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="job-details.html">Senior UI & UX Designer</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="col-lg-6">
+                <div class="job-item media mb-0">
+                    <a class="icon" href="job-details.html">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-5.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="job-details.html">Web Designer</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-work"></i> Hotel</li>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                 <div class="col-lg-6">
+                <div class="job-item media mb-0">
+                    <a class="icon" href="#">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-5.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="#">Web Designer</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-work"></i> Hotel</li>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                             <div class="col-lg-6">
+                <div class="job-item media mb-0">
+                    <a class="icon" href="#">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-5.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="#">Web Designer</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-work"></i> Hotel</li>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                             <div class="col-lg-6">
+                <div class="job-item media mb-0">
+                    <a class="icon" href="#">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-5.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="#">Web Designer</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-work"></i> Hotel</li>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+    </div>
+</div>
+<!-- Job details page end -->
+<!-- Footer start -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="footer-item clearfix">
+                    <img src="img/logos/logo.png" alt="logo" class="f-logo">
+                    <div class="s-border"></div>
+                    <div class="m-border"></div>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="flaticon-pin"></i>20/F Green Road, Dhanmondi, Dhaka
+                        </li>
+                        <li>
+                            <i class="flaticon-mail"></i><a href="mailto:sales@hotelempire.com">info@portavite.com</a>
+                        </li>
+                        <li>
+                            <i class="flaticon-internet"></i><a href="mailto:sales@hotelempire.com">info@portavite.com</a>
+                        </li>
+                        <li>
+                            <i class="flaticon-phone"></i><a href="tel:+55-417-634-7071">+0477 85X6 552</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                <div class="footer-item">
+                    <h4>Helpful Links</h4>
+                    <div class="s-border"></div>
+                    <div class="m-border"></div>
+                    <ul class="links">
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                <div class="footer-item">
+                    
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-8 col-sm-12">
+                <div class="footer-item clearfix">
+                    <h4>Newsletter</h4>
+                    <div class="s-border"></div>
+                    <div class="m-border"></div>
+                    <div class="Subscribe-box">
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                        <form class="form-inline" action="#" method="GET">
+                            <input type="text" class="form-control mb-sm-0" id="inlineFormInputName3" placeholder="Email Address">
+                            <button type="submit" class="btn"><i class="fa fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 col-lg-9 col-md-12">
+                    <p class="copy">© 2021 <a href="#">Portavite.</a> All Rights Reserved.</p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12">
+                    <ul class="social-list clearfix">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+<script src="js/jquery-2.2.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script  src="js/bootstrap-submenu.js"></script>
+<script  src="js/rangeslider.js"></script>
+<script  src="js/jquery.mb.YTPlayer.js"></script>
+<script  src="js/bootstrap-select.min.js"></script>
+<script  src="js/jquery.easing.1.3.js"></script>
+<script  src="js/jquery.scrollUp.js"></script>
+<script  src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script  src="js/leaflet.js"></script>
+<script  src="js/leaflet-providers.js"></script>
+<script  src="js/leaflet.markercluster.js"></script>
+<script  src="js/moment.min.js"></script>
+<script  src="js/daterangepicker.min.js"></script>
+<script  src="js/dropzone.js"></script>
+<script  src="js/slick.min.js"></script>
+<script  src="js/jquery.filterizr.js"></script>
+<script  src="js/jquery.magnific-popup.min.js"></script>
+<script  src="js/jquery.countdown.js"></script>
+<script  src="js/maps.js"></script>
+<script  src="js/app.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- Custom javascript -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+
+
+</body>
+</html>
